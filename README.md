@@ -1,6 +1,6 @@
 # Relicサマーインターン（26卒）のサンプルアプリ
 
-## 初回セットアップ手順（上から順番に実行）
+## 初回セットアップ手順（上から順番にコマンドを実行）
 
 ```sh
 # 作業ディレクトリに移動して作業を進めてください 
@@ -43,7 +43,7 @@ docker-compose stop
 
 phpMyAdmin: http://localhost:8080/
 
-## コマンドリファレンス
+## コマンドリファレンスは下記を参考にする
 
 ```sh
 # MySQLコンソールにログイン
@@ -57,5 +57,5 @@ docker-compose exec laravel.test php artisan view:clear
 docker-compose exec laravel.test php artisan clear-compiled
 
 # Laravel実行コンテナにログイン
-docker-compose exec laravel.test /bin/bash
+docker-compose exec laravel.test npm run dev
 ```
